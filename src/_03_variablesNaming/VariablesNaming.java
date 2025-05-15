@@ -12,6 +12,9 @@ public class VariablesNaming {
         5. 예약어 사용 불가(public, static, void, int, float, ...) 자바 안에서 기능을 하고 있기 때문에...
          */
 
+        // boolean 국룰, 이름지을 때
+        // 앞에 is, flag 로 걸어줌. 실무에서도 이름 지을 때 이렇게 함. 이래야 보자마자 바로 파악이 가능함. 변수명 지을 때 Tip!!
+
         // 자동차에 관한 내용인 것을 알 수가 있음. 직관적이니까.
         String carBrandName = "KIA";
         String carModelName = "EV6";
