@@ -22,7 +22,5 @@ public class String01 {
         System.out.println(str.startsWith("My name"));
         System.out.println(str.endsWith("travel")); // 해당 문자열로 끝나냐? => boolean
         System.out.println(str.endsWith("movie"));
-
-
     }
 }

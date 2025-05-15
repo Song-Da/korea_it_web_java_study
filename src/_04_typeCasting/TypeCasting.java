@@ -62,7 +62,5 @@ public class TypeCasting {
 
 //        i = Integer.parseInt("숫자"); // 에러가 안 뜸. 원래는 떠야 정상임.
 //        System.out.println(i);
-
-
     }
 }
