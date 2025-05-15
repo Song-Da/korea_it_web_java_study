@@ -27,7 +27,7 @@ public class DataTypes {
         
         // 실수 - float, double
         // float 7자릿수, double 14자릿수. 보통 실무에서 double을 많이 쓴다고 함.
-        float f = 3.14f; // 소문자 f를 넣어주면 인식이 가능함.
+        float f = 3.14f; // 소문자 f를 넣어주면 인식이 가능함. 대문자여도 됨.
         double d = 3.141234567891232453;
 
         // 해당값이 얼마냐에 따라서 자료형을 골라 사용할 수 있어야 함. int, double.
