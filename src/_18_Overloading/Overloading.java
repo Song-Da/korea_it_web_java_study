@@ -1,4 +1,4 @@
-package Overloading;
+package _18_Overloading;
 
 public class Overloading {
     public static int getPower(int number) {
@@ -61,6 +61,7 @@ public class Overloading {
         add("1", "3");
     }
 
+
     public static void printInfo (String name) { // 반환을 할 때는 sout 을 main 에 넣어줘야 한다. 하지만 void 에서는 이미 안에서 sout 이 들어가 출력이 되어 있으므로 그냥 main 에서는 부르기만 하면 됨.
         System.out.println("이름: " + name);
     }
@@ -73,7 +74,6 @@ public class Overloading {
         System.out.println("이름: " + name + ", 나이: " + age + ", email: " + email);
     }
 
-
     public static void add(int a, int b) {
         System.out.println(a);
         System.out.println(a + b);
@@ -85,9 +85,11 @@ public class Overloading {
     }
 
     public static void add(String a, String b) {
-        int A = Integer.parseInt(a);
-        int B = Integer.parseInt(b);
+//        int A = Integer.parseInt(a);
+//        int B = Integer.parseInt(b);
         System.out.println(a);
-        System.out.println(a + b);
+//        System.out.println(a + b);
+
+        System.out.println(a + " + " + b + " = " + (Integer.parseInt(a) + Integer.parseInt(b)));
     }
 }
