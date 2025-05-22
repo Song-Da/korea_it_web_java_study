@@ -1,4 +1,4 @@
-package _21_scanner;
+package _20_scanner;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package _20_variableScope;
+package _19_variableScope;
 
 public class VariableScope {
     public static void method() {
