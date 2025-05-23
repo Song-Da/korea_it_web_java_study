@@ -1,5 +1,7 @@
 package _21_class.OOP;
 
+import _21_class.Person.Person; // 다른 패키지라서 임폴트 해온 것.
+
 public class OOP {
     public static void main(String[] args) {
         /*
@@ -16,16 +18,15 @@ public class OOP {
           - 복잡한 내부 동작은 감추고, 꼭 필요한 기능만 보여주는 것.
         2. 캡슐화
           - 정보 은닉 | 내부 변수에 직접적으로 접근이 불가해짐, 한 번 감싸는 형태
+          - 데이터(변수)를 보호하고 접근을 제한하여 안정성을 높이는 것 (정보은닉)
         3. 상속
         4. 다형성
-
-
-        접근제어자 - 하는 이유는 정보 은닉을 위해서.
-        public - 어디서든 접근이 가능 (보통 씀)
-        default - 같은 패키지에서만 접근 가능 (명시를 따로 하지 않으면 default)
-        protected - 같은 패키지 또는 자식 클래스에서만 접근 가능
-        private - 해당 클래스 내부에서만 접근 가능 | 다른 곳에서 접근이 불가능함. (제일 많이 씀)
          */
+
+        Person person = new Person();
+        System.out.println(person.name); // 어디서든 접근 가능
+//        System.out.println(person.age); // 다른 패키지라서 접근 불가능
+//        System.out.println(person.address); // 다른 패키지라서 접근 불가능
 
     }
 }
